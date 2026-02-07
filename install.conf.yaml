@@ -1,8 +1,10 @@
-- clean: ['~']
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
 
 - link:
     ~/.gitconfig: gitconfig
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
-
-
