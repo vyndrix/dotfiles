@@ -1,5 +1,6 @@
 - defaults:
     link:
+      create: true
       relink: true
 
 - clean: ["~"]
@@ -8,3 +9,6 @@
     ~/.gitconfig: gitconfig
     ~/.zprofile: zprofile
     ~/.zshrc: zshrc
+    ~/.config/kitty:
+      glob: true
+      path: kitty/**
