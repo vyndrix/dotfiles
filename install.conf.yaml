@@ -8,7 +8,9 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.zprofile: zprofile
-    ~/.zshrc: zshrc
+    ~/.zshrc: zsh/zshrc
+    ~/.zsh_plugins.txt: zsh/zsh_plugins.txt
+    ~/.p10k.zsh: zsh/p10k
     ~/.config/kitty:
       glob: true
       path: kitty/**
