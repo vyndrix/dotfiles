@@ -18,7 +18,17 @@ DEV_DIR=$HOME/Developer
 
 alias dev="cd $DEV_DIR"
 alias dot="cd $DEV_DIR/dotfiles"
-alias ome="cd $DEV_DIR/vyndrix.me"
+alias ws="cd $DEV_DIR/vyndrix.me"
+
+# Consider moving this into a dedicated file
+repos:ssh() {
+  NAME=""
+  if ! [[ -z "$1" ]]; then
+    NAME=$1
+  fi
+
+  gh repo list --json sshUrl --jq '.[] | .sshUrl | select(. | contains("'$NAME'"))'
+}
 
 # TODO: move this into a separate branch. It is a android specific config.
 export ANDROID_HOME=$HOME/Library/Android/sdk
