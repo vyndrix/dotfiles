@@ -14,6 +14,12 @@ antidote load
 export GEM_HOME=$HOME/.gem
 export PATH=$GEM_HOME/bin:$PATH
 
+DEV_DIR=$HOME/Developer
+
+alias dev="cd $DEV_DIR"
+alias dot="cd $DEV_DIR/dotfiles"
+alias ome="cd $DEV_DIR/vyndrix.me"
+
 # TODO: move this into a separate branch. It is a android specific config.
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_NDK=$ANDROID_HOME/ndk/26.1.10909125
