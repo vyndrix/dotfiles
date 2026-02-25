@@ -1,3 +1,6 @@
 [user]
 	name = vyndrix
 	email = ramonfersouza@gmail.com
+	signingkey = 2875B702
+[commit]
+	gpgsign = true
