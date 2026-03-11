@@ -1,6 +1,8 @@
 [user]
 	name = vyndrix
 	email = ramonfersouza@gmail.com
-	signingkey = 2875B702
+	signingkey = 980641402875B702
 [commit]
 	gpgsign = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
