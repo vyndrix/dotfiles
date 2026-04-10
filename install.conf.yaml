@@ -14,3 +14,7 @@
     ~/.config/kitty:
       glob: true
       path: kitty/**
+    ~/.config/nvim/lua/plugins:
+      glob: true
+      path: nvim/plugins/**
+    ~/.config/nvim/lazyvim.json: nvim/lazyvim.json
