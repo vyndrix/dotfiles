@@ -45,7 +45,7 @@ and keeps the editor's autocomplete clean.
 
 Use compound pattern when a component has **at least one meaningful sub-part** that consumers
 will compose. Examples: `Card` with `Header/Content/Footer`, `Section` with `Title/Content`,
-`Badge` with `Group/Icon/Text`.
+`Badge` with `Group/Icon/Text`
 
 For truly atomic components with no sub-structure (e.g. a standalone `Spinner`), a simple
 default export is fine. Still export through index as a named export.
@@ -214,3 +214,8 @@ components. They:
 | Hook               | camelCase with `use` prefix           | `useIsDesktopLike`                             |
 | Hook file          | kebab-case                            | `use-is-desktop-like.ts`                       |
 | Props interface    | `Props` (local to file, not exported) | `interface Props { ... }`                      |
+
+## Known components libraries that will require refactor
+
+- Shadcn/ui
+- React Native Reusable
