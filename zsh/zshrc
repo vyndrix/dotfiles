@@ -20,6 +20,7 @@ alias dev="cd $DEV_DIR"
 alias dot="cd $DEV_DIR/dotfiles"
 alias ws="cd $DEV_DIR/vyndrix.me"
 alias gemi="gemini --sandbox"
+alias agents="cd ~/.agents"
 
 # Consider moving this into a dedicated file
 repos:ssh() {
