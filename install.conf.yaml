@@ -18,3 +18,12 @@
       glob: true
       path: nvim/plugins/**
     ~/.config/nvim/lazyvim.json: nvim/lazyvim.json
+    ~/.agents/skills/next-achitecture:
+      glob: true,
+      path: ai/skills/next-achitecture/**
+    ~/.agents/skills/react-component-pattern:
+      glob: true,
+      path: ai/skills/react-component-pattern/**
+    ~/.agents/skills/react-achitecture:
+      glob: true,
+      path: ai/skills/react-achitecture/**
