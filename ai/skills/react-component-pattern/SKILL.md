@@ -2,10 +2,12 @@
 name: react-component-patterns
 description: >
   Guides on how to write React/TypeScript components the way this user prefers.
-  Use this skill whenever the user is creating a new component, refactoring an existing one,
-  asking how to structure a component, asking about styling conventions, or working inside
-  the `src/components/` tree — even for small changes. Also use when the user asks about
-  compound components, Tailwind usage, sub-component exports, or the ui/ vs screen styling contract.
+  Use this skill when the project is built on top of React.js or React Native and
+  the user is creating a new component, refactoring an existing one, asking how
+  to structure a component, asking about styling conventions, or working inside
+  the `src/components/` tree — even for small changes. Also use when the user asks
+  about compound components, Tailwind usage, sub-component exports, or the ui vs
+  screen styling contract.
 ---
 
 # Component Patterns

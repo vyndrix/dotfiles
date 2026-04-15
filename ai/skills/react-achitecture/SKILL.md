@@ -1,11 +1,13 @@
 ---
 name: react-achitecture
 description: >
-  Guides on how to structure React TypeScript project the way this user prefers.
-  Use this skill whenever the user asks where a file should go, how to organize a new feature,
-  where to place a hook, provider, type, style, or any other module — even if they phrase it casually
-  like "where do I put this?" or "how should I structure this?". Also use it when creating new files
-  or folders, refactoring existing structure, or reviewing whether something is in the right place.
+  Guides on how to structure React/TypeScript project the way this user prefers.
+  Use this skill when the project is built on top of React.js or React Native and
+  the user asks where a file should go, how to organize a new feature, where to
+  place a hook, provider, type, style, or any other module — even if they phrase
+  it casually like "where do I put this?" or "how should I structure this?".
+  Also use it when creating new files or folders, refactoring existing structure,
+  or reviewing whether something is in the right place.
 ---
 
 # Project Architecture
