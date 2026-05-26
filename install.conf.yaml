@@ -11,6 +11,15 @@
     ~/.zshrc: zsh/zshrc
     ~/.zsh_plugins.txt: zsh/zsh_plugins.txt
     ~/.p10k.zsh: zsh/p10k
+    ~/.config/sketchybar/sketchybarrc: "sketchybar/sketchybarrc"
+    ~/.config/sketchybar/plugins:
+      glob: true
+      path: sketchybar/plugins/**
+    ~/.config/yabai/yabairc: "yabai/yabairc"
+    ~/.config/skhd/skhdrc: "skhd/skhdrc"
+    ~/.config/karabiner/assets/complex_modifications:
+      glob: true
+      path: karabiner/**
     ~/.config/kitty:
       glob: true
       path: kitty/**

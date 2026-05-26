@@ -1,0 +1,41 @@
+# ------- Spaces (Hyper + number) -------
+cmd + ctrl + alt + shift - 1  : yabai -m space --focus 1
+cmd + ctrl + alt + shift - 2  : yabai -m space --focus 2
+cmd + ctrl + alt + shift - 3  : yabai -m space --focus 3
+cmd + ctrl + alt + shift - 4  : yabai -m space --focus 4
+cmd + ctrl + alt + shift - 5  : yabai -m space --focus 5
+cmd + ctrl + alt + shift - 6  : yabai -m space --focus 6
+cmd + ctrl + alt + shift - 7  : yabai -m space --focus 7
+cmd + ctrl + alt + shift - 8  : yabai -m space --focus 8
+cmd + ctrl + alt + shift - 9  : yabai -m space --focus 9
+
+# ------- Send window to space (Meh + number)  — press: RightCmd + N -------
+# Follows the window over so you don't lose focus.
+ctrl + alt + shift - 1  : yabai -m window --space 1 --focus
+ctrl + alt + shift - 2  : yabai -m window --space 2 --focus
+ctrl + alt + shift - 3  : yabai -m window --space 3 --focus
+ctrl + alt + shift - 4  : yabai -m window --space 4 --focus
+ctrl + alt + shift - 5  : yabai -m window --space 5 --focus
+ctrl + alt + shift - 6  : yabai -m window --space 6 --focus
+ctrl + alt + shift - 7  : yabai -m window --space 7 --focus
+ctrl + alt + shift - 8  : yabai -m window --space 8 --focus
+ctrl + alt + shift - 9  : yabai -m window --space 9 --focus
+
+# ------- Layout commands (Hyper + verb) -------
+cmd + ctrl + alt + shift - f  : yabai -m window --toggle float ; \
+                                yabai -m window --grid 6:6:1:1:4:4
+cmd + ctrl + alt + shift - m  : yabai -m window --toggle zoom-fullscreen
+cmd + ctrl + alt + shift - r  : yabai -m space --rotate 90
+cmd + ctrl + alt + shift - b  : yabai -m space --balance
+
+# ------- Window focus (Hyper + hjkl) -------
+cmd + ctrl + alt + shift - h  : yabai -m window --focus west
+cmd + ctrl + alt + shift - j  : yabai -m window --focus south
+cmd + ctrl + alt + shift - k  : yabai -m window --focus north
+cmd + ctrl + alt + shift - l  : yabai -m window --focus east
+
+# ------- App launchers (Hyper + letter) -------
+cmd + ctrl + alt + shift - z  : open -a "Zen"
+cmd + ctrl + alt + shift - k  : open -a "kitty"
+cmd + ctrl + alt + shift - p  : open -a "Spotify"
+cmd + ctrl + alt + shift - return : open -na /Applications/kitty.app/Contents/MacOS/kitty # Launch kitty faster (Always a new instance)
